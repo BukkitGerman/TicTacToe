@@ -11,7 +11,7 @@ int checkwin();
 void board();
 
 int main(){
-    start:
+
     std::cout << "*******************************************************************\n\tTIC TAC TOE\n********************************************************************\n\n";
 
     int player = 1,i,choice;
@@ -46,16 +46,7 @@ int main(){
         std::cout<<"==>\aPlayer "<<--player<<" win\n";
     else
         std::cout<<"==>\aGame draw\n";
-    pagain:
-    std::cout << "Do you would play again? Yes(Y) No(N)";
-    char input;
-    std::cin >> input;
-    if(input == 'Y')
-        goto start;
-        else if(input == 'N')
-        system("pause");
-        else
-            goto pagain;
+
 }
 
 int checkwin(){
