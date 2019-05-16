@@ -43,9 +43,9 @@ int main(){
     }while(i==-1);
     board();
     if(i==1)
-        std::cout<<"==>\aPlayer "<<--player<<" win";
+        std::cout<<"==>\aPlayer "<<--player<<" win\n";
     else
-        std::cout<<"==>\aGame draw";
+        std::cout<<"==>\aGame draw\n";
     system("pause");
 }
 
