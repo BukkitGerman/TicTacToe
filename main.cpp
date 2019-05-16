@@ -46,6 +46,7 @@ int main(){
         std::cout<<"==>\aPlayer "<<--player<<" win";
     else
         std::cout<<"==>\aGame draw";
+    system("pause");
 }
 
 int checkwin(){
