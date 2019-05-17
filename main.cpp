@@ -42,11 +42,12 @@ int main(){
 
     }while(i==-1);
     board();
-    if(i==1)
-        std::cout<<"==>\aPlayer "<<--player<<" win\n";
-    else
-        std::cout<<"==>\aGame draw\n";
-
+    if(i==1) {
+        std::cout << "==>\aPlayer " << --player << " win\n";
+        system("pause");
+    }else {
+        std::cout << "==>\aGame draw\n";
+    }
 }
 
 int checkwin(){
